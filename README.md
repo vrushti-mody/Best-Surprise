@@ -57,13 +57,13 @@ $ npm start
 [![PR's Welcome](https://img.shields.io/github/issues-pr-raw/vrushti-mody/Surprise-me)]()
 [![Contributors](https://img.shields.io/github/contributors/vrushti-mody/Surprise-me)]()
 
-If you have suggestions for how TheHealthCorner could be improved, or want to report a bug, open an issue! Contributions of all kinds are welcomed!
+If you have suggestions for how Best Surprise could be improved, or want to report a bug, open an issue! Contributions of all kinds are welcomed!
 
 For more, check out the [Contributing Guide](./CONTRIBUTING.md).
 
 ## Live Demo
 
-If you want to try out our application, visit [`https://best-surprise.herokuapp.com/`](https://surprise-me.herokuapp.com/)
+If you want to try out our application, visit [`https://best-surprise.herokuapp.com`](https://best-surprise.herokuapp.com)
 
 ## License
 
