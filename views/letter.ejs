@@ -9,7 +9,7 @@
   
     <div class="typewriter">
         <h2>Dear <%- letter.recievername %>,</h2>
-        <h1 class="typewrite" data-period="2000" data-type='[ "<%- letter.message %>"]'>
+        <h1 class="typewrite" data-period="2000" data-type='[ "Hello" ]'>
           <span class="wrap"></span>
           <h2>Lots & Lots of Love, <br> <%- letter.sendername %>.</h2>
         </h1>
@@ -17,7 +17,7 @@
       
       
     </div>
-    
+    <p id="p" style="font-size: 0px;"><%- letter.message %></p>
     <script>
       var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -62,13 +62,14 @@
 
     window.onload = function() {
         var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
+       
+            var toRotate = [document.getElementById("p").textContent];
+            console.log(toRotate)
+            var period = 2000;
             if (toRotate) {
-              new TxtType(elements[i], JSON.parse(toRotate), period);
+              new TxtType(elements[0], toRotate, period);
             }
-        }
+        
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
