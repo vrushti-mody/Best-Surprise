@@ -23,7 +23,7 @@ router.post('/form1', async function(req, res, next) {
     let letter1 =  await letter.save()
       console.log(letter1)
       //res.redirect(`/${letter1._id}`)
-      res.render('form',{message:`Your letter was created! It is available at the following link: https://surprise-me.heroku.app/${letter1._id}. Save the link. You wont see it again`})
+      res.render('form',{message:`Your letter was created! It is available at the following link: https://best-surprise.heroku.app/${letter1._id}. Save the link. You wont see it again`})
   
   }
   catch(err){
