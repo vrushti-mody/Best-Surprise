@@ -69,5 +69,5 @@ If you want to try out our application, visit [`https://best-surprise.herokuapp.
 
 [MIT](LICENSE) © 2020 WandaVision
 
-Made with 💕 by [Vrushti Mody](https://github.com/vrushti-mody) and [Rohan Poojari](https://github.com/RoRogers7) for the Tidy The Hack Up Hackathon!
+Made with 💕 by [Vrushti Mody](https://github.com/vrushti-mody) and [Rohan Poojari](https://github.com/RoRogers7) for the Surprise Hacks Hackathon!
 
