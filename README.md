@@ -65,6 +65,10 @@ For more, check out the [Contributing Guide](./CONTRIBUTING.md).
 
 If you want to try out our application, visit [`https://best-surprise.herokuapp.com`](https://best-surprise.herokuapp.com)
 
+## Video Demo
+
+If you want to watch how the application works, visit [`https://www.youtube.com/watch?v=Di4liJflCoQ&t=7s`](https://www.youtube.com/watch?v=Di4liJflCoQ&t=7s)
+
 ## License
 
 [MIT](LICENSE) © 2020 WandaVision
