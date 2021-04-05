@@ -1,5 +1,5 @@
 # Surprise Me
-
+<img src="https://assets.dryicons.com/uploads/icon/svg/7806/8fc6155c-6004-4a46-b45c-f3cc78d2b93f.svg" style="align:center" width="30%" alt="Logo">
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]() 
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/vrushti-mody/Surprise-me/pulls)
