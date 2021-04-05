@@ -9,10 +9,10 @@ router.get('/', function(req, res, next) {
 
 /* GET form page. */
 router.get('/form', function(req, res, next) {
-  res.render('form',{message:'No message'});
+  res.render('form',{message:''});
 });
 
-router.post('/form1', async function(req, res, next) {
+router.post('/form', async function(req, res, next) {
   var letter= new Letter({
     sendername:req.body.sendername,
     recievername:req.body.recievername,
@@ -38,7 +38,12 @@ router.post('/form1', async function(req, res, next) {
 router.get('/:id', async function(req, res, next) {
   let id = req.params.id
   const letter = await Letter.findOne({_id:id})
-  res.render('letter', { letter});
+  if(letter){
+    res.render('letter', { letter});
+  }
+  else{
+    res.redirect('/')
+  }
 });
 
 
