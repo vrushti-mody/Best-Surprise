@@ -7,7 +7,7 @@ body {
 }
 
 /* DEMO-SPECIFIC STYLES */
-.typewriter h1 {
+.typewriter h1 span{
   color: orange;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
